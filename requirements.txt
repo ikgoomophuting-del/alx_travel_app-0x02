@@ -1,1 +1,7 @@
+Django
+graphene-django
+requests
+celery
+django-celery-results
+python-dotenv
 
