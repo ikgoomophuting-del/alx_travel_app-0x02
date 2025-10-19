@@ -30,7 +30,6 @@ Testing	Django Test Framework
 📁 Project Structure
 
 alx_travel_app/
-
 ├── alx_travel_app/
 │   ├── __init__.py
 │   ├── settings.py
@@ -39,7 +38,7 @@ alx_travel_app/
 │   ├── schema.py
 │   ├── asgi.py
 │   └── wsgi.py
-
+│
 ├── listings/
 │   ├── __init__.py
 │   ├── models.py
@@ -54,11 +53,11 @@ alx_travel_app/
 │       ├── payment_gateway.py
 │       └── serializers.py
 │
-
 ├── manage.py
 ├── requirements.txt
 ├── .env
 └── README.md
+
 
 ---
 ⚙️ Installation & Setup
