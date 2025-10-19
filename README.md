@@ -31,3 +31,14 @@ curl -X POST http://127.0.0.1:8000/api/payments/initiate/ \
   -H "Content-Type: application/json" \
   -d '{"amount":"100","email":"test@example.com","booking_reference":"BOOK123"}'
 ```
+## Payment Confirmation Emails (Celery + Database Backend)
+
+After a successful Chapa payment, a Celery task sends an email confirmation using Django’s database as the Celery backend.
+
+### Setup
+
+Install dependencies:
+```bash
+pip install celery django-celery-results
+python manage.py migrate django_celery_results
+```
